@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="logo_clinica.png" width="170" align="left">
+            <ul>
+                <li style="color: #6685FA;"><a href="index.html" style="color: #6685FA;" target="_self">Página Principal</a></li>
+                <li style="color: #6685FA;"><a href="sobre.html" style="color: #6685FA;">Sobre a Clínica</a></li>
+                <li style="color: #6685FA;"><a href="horario.html" style="color: #6685FA;">Horário de Atendimento</a></li>
+                <li style="color: #6685FA;"><a href="contato.html" style="color: #6685FA;" target="_self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="header_contato.png" width="100%" height="100%">
+            </div>
+    
+            <div class="content">
+                <table cellpadding="5" cellspacing="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td align="center">Telefone</td>
+                            <td align="center">(55) 3354.1542</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Celular</td>
+                            <td align="center">(55) 98545-5454</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Email</td>
+                            <td align="center">clinica@clinica.com.br</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Endereço</td>
+                            <td align="center">Rua Alguma, 123 - Cidade B</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <center>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514074.6471027294!2d-59.07720498132945!3d-30.67019453346208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f84599900b476f%3A0x98d0f32c180dd2f7!2sClinica%20Medica%20Integral%20Srl!5e0!3m2!1spt-BR!2sbr!4v1698860488443!5m2!1spt-BR!2sbr" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
+                <br><hr><br><br>
+                <form name="contato" method="get">
+                    <label>Nome:</label> <input type="text" name="name"><br>
+                    <label>E-mail:</label> <input type="email" name="email"><br>
+                    <label>Assunto:</label> <input type="text" name="assunto"><br>
+                    <label>Mensagem</label><br>
+                    <textarea rows="10" cols="50" name="message"></textarea><br>
+                    <button type="submit" onclick="alert('Formulário Enviado')">Enviar Formulário</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <img src="logo_clinica_color.png" width="170" align="right">
+                <table style="color: white;" cellpadding="3" cellspacing="5">
+                    <thead>
+                        <th>
+                            <td>Contato</td>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Telefone</td>
+                            <td>(55) 3354.1542</td>
+                        </tr>
+                        <tr>
+                            <td>Celular</td>
+                            <td>(55) 98545-5454</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>clinica@clinica.com.br</td>
+                        </tr>
+                        <tr>
+                            <td>Endereço</td>
+                            <td>Rua Alguma, 123 - Cidade B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
